@@ -77,9 +77,9 @@
 
 //　あるのはセミの声と清流のせせらぎ＠そして、ひぐらしの声＠
 	OutputLine(NULL, "　あるのはセミの声と清流のせせらぎ。",
-		   NULL, "Solo se escuchan el chirriar de los saltamontes y el murmullar de los arroyos.", Line_WaitForInput);
+		   NULL, "Solo se escuchan los chirridos de las cigarras y el murmullo del arroyo.", Line_WaitForInput);
 	OutputLine(NULL, "そして、ひぐらしの声。",
-		   NULL, " Y el llamado de las higurashi—las cigarras nocturnas—.", Line_WaitForInput);
+		   NULL, " Y el llamado de las higurashi—las cigarras ocaso—.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -126,7 +126,7 @@
 
 //　前の町には確かにレコード屋もゲームセンターもアイスクリーム屋もあったが、別にそれらを頻繁に利用していたわけじゃない＠
 	OutputLine(NULL, "　前の町には確かにレコード屋もゲームセンターもアイスクリーム屋もあったが、別にそれらを頻繁に利用していたわけじゃない。",
-		   NULL, "Tendrá tiendas de música, arcades y heladerías, pero rara vez fui a esos lugares para pasar el rato.", Line_WaitForInput);
+		   NULL, "Tendrá tiendas de música, arcades y heladerías, pero rara vez fui a esos lugares a pasar el rato.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -158,13 +158,13 @@
 
 //　彼女は誰に謝っているのだろう＠
 	OutputLine(NULL, "　彼女は誰に謝っているのだろう。",
-		   NULL, "¿Con quién se disculpa?", Line_WaitForInput);
+		   NULL, "¿A quién le pide perdón?", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //　これだけ謝っているのだから、もう許してやればいいのに＠
 	OutputLine(NULL, "　これだけ謝っているのだから、もう許してやればいいのに。",
-		   NULL, "Ya se ha disculpado demasiado, así que perdónala de una vez.", Line_WaitForInput);
+		   NULL, "Ya se ha disculpado demasiado, perdónala de una vez.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -176,7 +176,7 @@
 
 //　いつまでも彼女を許そうとしない誰かに、俺は少し苛立ちを覚えた￥
 	OutputLine(NULL, "　いつまでも彼女を許そうとしない誰かに、俺は少し苛立ちを覚えた。",
-		   NULL, "Empezaba a enfadarme con aquel que se rehusaba a perdonarla.", Line_Normal);
+		   NULL, "Comenzaba a enfadarme con aquel que se rehusaba a perdonarla.", Line_Normal);
 	ClearMessage();
 
 //　どんな過ちだって、許されないことはないはずだ＠
@@ -198,23 +198,23 @@
 
 //　...それでも彼女は謝り続けている￥
 	OutputLine(NULL, "　…それでも彼女は謝り続けている。",
-		   NULL, "...Ella se sigue disculpando, incluso en este instante.", Line_Normal);
+		   NULL, "...Y a pesar de todo, ella se sigue disculpando.", Line_Normal);
 	ClearMessage();
 
 //　では...取り返しのつかない過ちを犯してしまったのだろうか￥
 	OutputLine(NULL, "　では…取り返しのつかない過ちを犯してしまったのだろうか？",
-		   NULL, "Entonces... ¿En verdad ha hecho algo que no se puede arreglar?", Line_Normal);
+		   NULL, "Entonces... ¿De verdad hizo algo que no se puede arreglar?", Line_Normal);
 	ClearMessage();
 
 //　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ＠
 	OutputLine(NULL, "　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ。",
-		   NULL, "No tengo idea de lo que hizo, pero si no se puede arreglar, ya tiene una razón más que suficiente para perdonarla.", Line_WaitForInput);
+		   NULL, "No tengo idea de lo que hizo, pero si no se puede arreglar, ya hay una razón más que suficiente para perdonarla.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //　彼女がいくら謝ったって、どうにもならないのだから￥
 	OutputLine(NULL, "　彼女がいくら謝ったって、どうにもならないのだから。",
-		   NULL, "Sin importar cuánto se disculpe, nada va a cambiar.", Line_Normal);
+		   NULL, "Sin importar cuántas veces pida perdón, nada va a cambiar.", Line_Normal);
 	ClearMessage();
 
 //　それでも彼女は、こんなにもみじめな声で謝り続けている...￥
@@ -236,7 +236,7 @@
 
 //　こんなにも...みじめな声で謝っているんだから......￥
 	OutputLine(NULL, "　こんなにも…みじめな声で謝っているんだから……。",
-		   NULL, "Se está disculpando... con una voz tan patética...", Line_Normal);
+		   NULL, "Se está disculpando con una voz tan... lamentable...", Line_Normal);
 	ClearMessage();
 
 //「圭一、そろそろ着くぞ＠起きなさい。＠
@@ -281,7 +281,7 @@
 
 //　いや、同じ時代であることすら疑わせる￥
 	OutputLine(NULL, "　いや、同じ時代であることすら疑わせる。",
-		   NULL, "O... que incluso pertenecían a la misma época.", Line_Normal);
+		   NULL, "O... que pertenecían a la misma época.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
