@@ -78,7 +78,7 @@
 	OutputLine(NULL, "「圭一はワイシャツ１枚で涼しそうですわねぇ…。",
 		   NULL, "\"Keiichi se ve tan fresco teniendo solo una camisa...", Line_WaitForInput);
 	OutputLine(NULL, "羨ましいですわ。」",
-		   NULL, " Qué envidia.\"", Line_WaitForInput);
+		   NULL, " Cuánta envidia.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -149,7 +149,7 @@
 	OutputLine(NULL, "「これ、結構蒸しますわよ？",
 		   NULL, "\"Este vestido es muy sofocante.", Line_WaitForInput);
 	OutputLine(NULL, "　絶対にレナさんの方が涼しいですわぁ。」",
-		   NULL, " Estoy segura de que me sentiría mejor usando tu ropa.\"", Line_WaitForInput);
+		   NULL, " Estoy segura de que lo que traes se siente mucho mejor.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -210,9 +210,9 @@
 
 //「あれは町の学校の制服なんですのよ＠別に決まってるわけじゃないですけど、みんな着てますわね。＠
 	OutputLine(NULL, "「あれは町の学校の制服なんですのよ。",
-		   NULL, "\"Ese es el uniforme de la escuela de la ciudad.", Line_WaitForInput);
+		   NULL, "\"Ese es el uniforme de la escuela en la ciudad.", Line_WaitForInput);
 	OutputLine(NULL, "別に決まってるわけじゃないですけど、みんな着てますわね。」",
-		   NULL, " No es reglamentario, pero igual los usan.\"", Line_WaitForInput);
+		   NULL, " No es reglamentario, pero igual lo usan.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -242,7 +242,7 @@
 
 //「んで、その親類に頼んで、いろいろ個性的な制服を取り寄せてもらってるわけか。＠
 	OutputLine(NULL, "「んで、その親類に頼んで、いろいろ個性的な制服を取り寄せてもらってるわけか。」",
-		   NULL, "\"¿Entonces le pidieron un montón de uniformes escolares peculiares?\"", Line_WaitForInput);
+		   NULL, "\"¿Entonces le pidieron un montón de uniformes escolares distintos?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
