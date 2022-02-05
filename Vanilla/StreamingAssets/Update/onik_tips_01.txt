@@ -49,7 +49,7 @@
 
 //「そんなことないよ＠誕生日の違いがあれば、年齢が同じでも干支が違うこともありえるって！＠
 	OutputLine(NULL, "「そんなことないよ。",
-		   NULL, "\"Eso no es cierto.", Line_WaitForInput);
+		   NULL, "\"No es cierto.", Line_WaitForInput);
 	OutputLine(NULL, "誕生日の違いがあれば、年齢が同じでも干支が違うこともありえるって！」",
 		   NULL, " ¡Si su cumpleaños es distinto, es posible tener distintos signos a pesar de tener la misma edad!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -62,7 +62,7 @@
 	OutputLine(NULL, "　あ、そーか。",
 		   NULL, " Ah, claro~", Line_WaitForInput);
 	OutputLine(NULL, "魅音、頭いいじゃねぇか！」",
-		   NULL, " Qué inteligente eres, Mion\"", Line_Normal);
+		   NULL, " ¡Eres muy lista, Mion!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -81,7 +81,7 @@
 
 //　レナがえっへんと胸を張る＠
 	OutputLine(NULL, "　レナがえっへんと胸を張る。",
-		   NULL, "Rena sonrió, hinchando el pecho con orgullo.", Line_WaitForInput);
+		   NULL, "Rena sonrió, sacando el pecho con orgullo.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -101,7 +101,7 @@
 	OutputLine(NULL, "「…ふ！",
 		   NULL, "\"...¡Je!", Line_WaitForInput);
 	OutputLine(NULL, "　だが諦めろ。",
-		   NULL, " Ni siquiera lo pienses.", Line_WaitForInput);
+		   NULL, " Ni lo sueñes.", Line_WaitForInput);
 	OutputLine(NULL, "俺に誕生日で挑もうったって無駄なことだ！！",
 		   NULL, " ¡¡No puedes competir contra mi cumpleaños!!", Line_WaitForInput);
 	OutputLine(NULL, "　……何ならひと月差ごとに１００円の賭けをしてもいいぜー！」",
@@ -125,7 +125,7 @@
 
 //　突然、賭けにされて狼狽するレナ＠
 	OutputLine(NULL, "　突然、賭けにされて狼狽するレナ。",
-		   NULL, "Al oír mi idea de una apostar tan repentinamente, Rena entró en pánico.", Line_WaitForInput);
+		   NULL, "Al oír mi idea de apostar tan repentinamente, Rena entró en pánico.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -177,7 +177,7 @@
 
 //「まぁ、ほんの何ヶ月かはね～＠　すぐにまた差を開いてあげるけどさ！￥
 	OutputLine(NULL, "「まぁ、ほんの何ヶ月かはね〜！",
-		   NULL, "\"No es para tanto, son solo unos meses~", Line_WaitForInput);
+		   NULL, "\"No es para tanto, son solo unos meses~.", Line_WaitForInput);
 	OutputLine(NULL, "　すぐにまた差を開いてあげるけどさ！」",
 		   NULL, " ¡La diferencia aumentará nuevamente dentro de poco~!\"", Line_Normal);
 	ClearMessage();
@@ -191,7 +191,7 @@
 
 //　...おいおい、威張ることじゃねーぞ...＠って俺のことか（苦笑￥
 	OutputLine(NULL, "　…おいおい、威張ることじゃねーぞ…。",
-		   NULL, "...Espera, no deberías enorgullecerte de eso.", Line_WaitForInput);
+		   NULL, "...Un momento, no deberías enorgullecerte de eso.", Line_WaitForInput);
 	OutputLine(NULL, "って俺のことか（苦笑）",
 		   NULL, " Soy un burro hablando de orejas (Je...).", Line_Normal);
 	ClearMessage();
@@ -216,7 +216,7 @@
 
 //「魅ぃちゃん、よくわかんないこと言ってる......。＠
 	OutputLine(NULL, "「魅ぃちゃん、よくわかんないこと言ってる……。」",
-		   NULL, "\"Mii-chan, dices cosas sin sentido...\"", Line_WaitForInput);
+		   NULL, "\"Mii-chan, dices puros sinsentidos...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -365,7 +365,7 @@
 	OutputLine(NULL, "「え、えーーーーーッ？！？！",
 		   NULL, "\"¿¡¿¡Qu-Quéee!?!?", Line_WaitForInput);
 	OutputLine(NULL, "　と、遠いよぅ…！」",
-		   NULL, " ¡Eso es muy lejos...!\"", Line_WaitForInput);
+		   NULL, " ¡Eso es tan lejos...!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -444,7 +444,7 @@
 	OutputLine(NULL, "「せーぜー頑張って下さいな。",
 		   NULL, "\"Por favor, den su máximo.", Line_WaitForInput);
 	OutputLine(NULL, "おじさんはささやかに応援しとりますわ。」",
-		   NULL, " Este viejo los estará apoyando desde atrás.\"", Line_Normal);
+		   NULL, " Este vejestorio los estará apoyando desde atrás.\"", Line_Normal);
 	ClearMessage();
 
 //「俺たちがじゃないぞ、魅音がだぞ＠　お前、受験生だろ？＠　こんな成績じゃお先真っ暗だぞ？！＠
@@ -453,7 +453,7 @@
 	OutputLine(NULL, "　お前、受験生だろ？！",
 		   NULL, " Deberías estar preparándote para los exámenes, ¿¡o no!?", Line_WaitForInput);
 	OutputLine(NULL, "　こんな成績じゃお先真っ暗だぞ？！」",
-		   NULL, " ¡Con estas calificaciones tu futuro se ve muy poco prometedor!\"", Line_WaitForInput);
+		   NULL, " ¡Tu futuro se ve muy poco prometedor con estas calificaciones!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
