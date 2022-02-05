@@ -315,7 +315,7 @@ void main()
 
 //「レナちゃんにお漬物ありがとうって伝えてね～！＠
 	OutputLine(NULL, "「レナちゃんにお漬物ありがとうって伝えてね〜！」",
-		   NULL, "\"¡Por favor, agradécele a Rena-chan por los encurtido~s!\"", Line_WaitForInput);
+		   NULL, "\"¡Por favor, agradécele a Rena-chan por los encurtidos~!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -876,7 +876,7 @@ void main()
 
 //「たくましくなっちゃった上にヒゲまで生やしちゃってさぁ～☆＠
 	OutputLine(NULL, "「たくましくなっちゃった上にヒゲまで生やしちゃってさぁ〜☆」",
-		   NULL, "\"No solo está grandote, ahora hasta tiene bigotito~☆\"", Line_WaitForInput);
+		   NULL, "\"No solo está grandote, ahora hasta tiene bigotito~.☆\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1752,7 +1752,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　証拠もないのにぃ〜！！」",
-		   NULL, " ¡¡Ni siquiera tienes prueba~s!!\"", Line_WaitForInput);
+		   NULL, " ¡¡Ni siquiera tienes pruebas~!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3063,7 +3063,7 @@ void main()
 
 //「本当にどっちか分かってるぅ～？　降参した方がよくない～？＠
 	OutputLine(NULL, "「本当にどっちか分かってるぅ〜？　降参した方がよくない〜？」",
-		   NULL, "\"¿En verdad sabes cuál es cuál? ¿Por qué no te rinde~s?\"", Line_WaitForInput);
+		   NULL, "\"¿En verdad sabes cuál es cuál? ¿Por qué no te rindes~?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 //　さすがクラス委員長＠最年長＠魅音のいびり方、追い詰め方は年季が違う＠
@@ -3314,7 +3314,7 @@ void main()
 
 //　ち、畜生～レナを上手に使いやがってぇえぇ！！＠
 	OutputLine(NULL, "　ち、畜生〜レナを上手に使いやがってぇえぇ！！！",
-		   NULL, "Tch, ¡maldició~n! ¡¡Está usando a Rena como a un títere!!", Line_WaitForInput);
+		   NULL, "Tch, ¡maldición~! ¡¡Está usando a Rena como un títere!!", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
