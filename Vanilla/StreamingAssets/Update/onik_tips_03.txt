@@ -25,7 +25,7 @@
 
 //「...圭ちゃんってさ、すごいお金持ちってわけでもないの？＠
 	OutputLine(NULL, "「…圭ちゃんってさ、すごいお金持ちってわけでもないの？」",
-		   NULL, "\"...Entonces, Kei-chan, ¿no eres millonario?\"", Line_WaitForInput);
+		   NULL, "\"...Oye, Kei-chan, ¿eres multimillonario?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -141,7 +141,7 @@
 	OutputLine(NULL, "　……確かに家は図体だけはでかいからな。",
 		   NULL, "...Bueno, la estructura es gigante.", Line_WaitForInput);
 	OutputLine(NULL, "そういう誤解もありえるな。",
-		   NULL, " Entiendo que puedan haber malentendidos.", Line_Normal);
+		   NULL, " Entiendo que pueda haber malentendidos.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "bg_108", "right", 0, 0, 300 );
@@ -165,7 +165,7 @@
 
 //　...梨花ちゃんが哀れみながら俺の頭をなでなでしてくれる＠金持ち扱いから瞬時に貧乏人扱いかよ...￥
 	OutputLine(NULL, "　…梨花ちゃんが哀れみながら俺の頭をなでなでしてくれる。",
-		   NULL, "...Rika-chan sintió pena por mí y acarició mi cabeza.", Line_WaitForInput);
+		   NULL, "...Rika-chan sintió pena por mí y me acarició la cabeza.", Line_WaitForInput);
 	OutputLine(NULL, "金持ち扱いから瞬時に貧乏人扱いかよ…。",
 		   NULL, " Pasé de millonario a mendigo...", Line_Normal);
 	ClearMessage();
@@ -188,7 +188,7 @@
 	OutputLine(NULL, "　しかも玄関は立派で、門は大型車も入れるようになってるし！！",
 		   NULL, " ¡¡La entrada es gigante y el portón es lo suficientemente grande para que entre un camión!!", Line_WaitForInput);
 	OutputLine(NULL, "　絶対、普通じゃないって！」",
-		   NULL, " ¡Eso no es promedio en absoluto!\"", Line_WaitForInput);
+		   NULL, " ¡Eso no tiene nada de promedio!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -205,7 +205,7 @@
 
 //　我が家がやたらとでかいのは、親父のアトリエを含むからだ＠
 	OutputLine(NULL, "　我が家がやたらとでかいのは、親父のアトリエを含むからだ。",
-		   NULL, "Pero la razón por la que la casa es tan grande es que allí está el estudio de Papá.", Line_WaitForInput);
+		   NULL, "Pero la razón por la que mi casa es tan grande, es que allí está el estudio de Papá.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -252,7 +252,7 @@
 	OutputLine(NULL, "「ぜひ今度、圭ちゃんの家を探検してみたいよなぁ。",
 		   NULL, "\"Me encantaría recorrer la casa de Kei-chan...", Line_WaitForInput);
 	OutputLine(NULL, "…お金持ちじゃないと主張しながらもあの邸宅！！",
-		   NULL, " ¡¡Dice no ser rico, pero tiene una casa así!!", Line_WaitForInput);
+		   NULL, " ¡¡Dice que no es rico, pero tiene esa casota!!", Line_WaitForInput);
 	OutputLine(NULL, "　一体何が隠されているのか！！」",
 		   NULL, " ¿¡Qué podrá ocultar allí!?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -289,7 +289,7 @@
 
 //「わぁぁ～！　それいいねそれいいね！　レナもごろごろしたい～！￥
 	OutputLine(NULL, "「わぁぁ〜！　それいいねそれいいね！　レナもごろごろしたい〜！」",
-		   NULL, "\"¡Woow~! Sería asombroso, ¡asombroso! ¡Quiero rodar por el piso también~!\"", Line_Normal);
+		   NULL, "\"¡Guaau~! Sería asombroso, ¡asombroso! ¡Quiero rodar por el piso también~!\"", Line_Normal);
 	ClearMessage();
 
 //　...なんか楽しそうに想像が膨らんでいってるな...＠
