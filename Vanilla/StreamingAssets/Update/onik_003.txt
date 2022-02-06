@@ -29,7 +29,7 @@
 	OutputLine(NULL, "「…レナが沙都子や梨花ちゃんをお持ち帰りしたくなるのは分かる。",
 		   NULL, "\"...Entiendo que quiera llevarse a Satoko y a Rika-chan a casa.", Line_WaitForInput);
 	OutputLine(NULL, "だが、ケンタくん人形だけは理解できないぞ！　あんな眼鏡親父のどこがいいんだ！」",
-		   NULL, " ¡Pero no comprendo lo del Coronel Sanders! ¿¡Qué le ve de bueno a ese anciano cuatro-ojos!?\"", Line_WaitForInput);
+		   NULL, " ¡Pero no comprendo lo del Coronel Sanders! ¿¡Qué le ve de bueno a ese viejo cuatro-ojos!?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -70,7 +70,7 @@
 
 //「…レナが楽しいなら、いいんだと思いますです。￥
 	OutputLine(NULL, "「…レナが楽しいなら、いいんだと思いますです。」",
-		   NULL, "\"...Si Rena lo disfruta, creo que está bien.\"", Line_Normal);
+		   NULL, "\"...Si Rena lo disfruta, por mí está bien.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -121,7 +121,7 @@
 	OutputLine(NULL, "　何しろとんでもない話だったんだよ！",
 		   NULL, " ¡Fue increíble!", Line_WaitForInput);
 	OutputLine(NULL, "　雛見沢が丸ごとダム湖に沈むことに、一方的になってさ！」",
-		   NULL, " ¡Dijeron que Hinamizawa terminaría sumergida en el embalse y que no podíamos hacer nada al respecto!\"", Line_WaitForInput);
+		   NULL, " ¡Dijeron que Hinamizawa iba a terminar sumergida en el embalse y que no podíamos evitarlo!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -273,7 +273,7 @@
 
 //「順を追って説明しろ＠　俺はまだ入るとは言ってないぞ＠　何の部活だ？￥
 	OutputLine(NULL, "「順を追って説明しろ！",
-		   NULL, "\"¡Empieza desde el principio!", Line_WaitForInput);
+		   NULL, "\"¡Vamos con calma!", Line_WaitForInput);
 	OutputLine(NULL, "　俺はまだ入るとは言ってないぞ！",
 		   NULL, " ¡No dije que me fuera a unir!", Line_WaitForInput);
 	OutputLine(NULL, "　何の部活だ？」",
@@ -334,7 +334,7 @@
 
 //　俺の疑問に、梨花ちゃんだけが的を射た説明をしてくれた￥
 	OutputLine(NULL, "　俺の疑問に、梨花ちゃんだけが的を射た説明をしてくれた。",
-		   NULL, "Rika-chan fue la única que dio una respuesta de pertinente.", Line_Normal);
+		   NULL, "Rika-chan fue la única que dio una respuesta pertinente.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -733,7 +733,7 @@
 
 //「会則第二条ですわ～＠圭一さんも勝つために最善の努力をなさいませ～！＠
 	OutputLine(NULL, "「会則第二条ですわ〜。",
-		   NULL, "\"Cito el segundo artículo de la constitución~", Line_WaitForInput);
+		   NULL, "\"Cito el segundo artículo de la constitución~.", Line_WaitForInput);
 	OutputLine(NULL, "圭一さんも勝つために最善の努力をなさいませ〜！」",
 		   NULL, " ¡Keiichi-san debe esforzarse al máximo también~!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1062,7 +1062,7 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "おーです。」",
-		   NULL, " Ooooh~.\"", Line_Normal);
+		   NULL, " Así: Ooooh~.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawBustshotWithFiltering( 5, "black", "down", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 300, TRUE );
@@ -1116,7 +1116,7 @@
 
 //「わ、…うまいよ圭一くん。その調子！＠
 	OutputLine(NULL, "「わ、…うまいよ圭一くん。その調子！」",
-		   NULL, "\"Wow... Excelente, Keiichi-kun. ¡Sigue así!\"", Line_WaitForInput);
+		   NULL, "\"Guau... Excelente, Keiichi-kun. ¡Sigue así!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1283,7 +1283,7 @@
 
 //「…わ、!w400…魅ぃちゃんがカード間違えるなんて珍しいねぇ。＠
 	OutputLine(NULL, "「…わ、",
-		   NULL, "\"...Wooow", Line_ContinueAfterTyping);
+		   NULL, "\"...Guaau", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 400 );
@@ -1312,7 +1312,7 @@
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "あんた…まさかぁ…ッ！！」",
-		   NULL, " Es posible que... ¡¡Tú...!!\"", Line_Normal);
+		   NULL, " Será posible que... ¡¡Tú...!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "bg_109", "up", 0, 0, 300 );
@@ -1375,7 +1375,7 @@
 	OutputLine(NULL, "「やったね圭一くん！",
 		   NULL, "\"¡La derrotaste, Keiichi-kun!", Line_WaitForInput);
 	OutputLine(NULL, "大善戦だよ？！だよ？！」",
-		   NULL, " Fue una pelea impresionante, ¿¡sabes!? ¿¡Sabes!?\"", Line_WaitForInput);
+		   NULL, " Fue una pelea impresionante, ¿¡sabes!? ¡Impresionante!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1401,7 +1401,7 @@
 
 //「…まぁ…ビリは確定だけどさ、最後に魅音から一本取れたから大満足かな＠　たはははははぁ～…♪＠
 	OutputLine(NULL, "「…まぁ…ビリは確定だけどさ、最後に魅音から一本取れたから大満足かな☆",
-		   NULL, "\"...Bueno... puede que sea el perdedor, pero estoy satisfecho con dominar a Mion al final.☆", Line_WaitForInput);
+		   NULL, "\"...Bueno... puede que sea el perdedor, pero me quedo satisfecho con dominar a Mion al final.☆", Line_WaitForInput);
 	OutputLine(NULL, "　たはははははぁ〜…♪」",
 		   NULL, " Muajajajajajaa~...♪\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1502,7 +1502,7 @@
 
 //「圭ちゃんが負けたら反対の手のカードも公開するよ＠それならＯＫでしょ？＠
 	OutputLine(NULL, "「圭ちゃんが負けたら反対の手のカードも公開するよ。",
-		   NULL, "\"Si pierdes, te mostraré la carta de la otra mano.", Line_WaitForInput);
+		   NULL, "\"Si pierdes, te muestro la carta de la otra mano.", Line_WaitForInput);
 	OutputLine(NULL, "それならＯＫでしょ？」",
 		   NULL, " ¿Te parece bien?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1583,7 +1583,7 @@
 
 //　沙都子の些細な小言も聞き逃さない＠
 	OutputLine(NULL, "　沙都子の些細な小言も聞き逃さない。",
-		   NULL, "No se me iba a escapar esa reacción de Satoko.", Line_WaitForInput);
+		   NULL, "No se me iba a escapar la reacción de Satoko.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2092,7 +2092,7 @@
 
 //「賭けだった＠　圭ちゃんがおてんばさんの早とちりだったなら、負けてたのは私だった。＠
 	OutputLine(NULL, "「賭けだった。",
-		   NULL, "\"Me la estaba jugando.", Line_WaitForInput);
+		   NULL, "\"Me arriesgué demasiado.", Line_WaitForInput);
 	OutputLine(NULL, "　圭ちゃんがおてんばさんの早とちりだったなら、負けてたのは私だった。」",
 		   NULL, " Si te hubieras precipitado como un niño, habría perdido.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2222,7 +2222,7 @@
 
 //「圭一さんが、正解に触れる直前で止まったときにはかかった！って思いましたわ～！＠
 	OutputLine(NULL, "「圭一さんが、正解に触れる直前で止まったときにはかかった！って思いましたわ〜！」",
-		   NULL, "\"Cuando Keiichi-san se detuvo a punto de seleccionar la carta correcta, pensé '¡Ha caído en la trampa~!'\"", Line_WaitForInput);
+		   NULL, "\"Cuando Keiichi-san se detuvo a punto de seleccionar la carta correcta, pensé '¡Cayó en la trampa~!'\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2252,7 +2252,7 @@
 
 //　お前ら全員、最初から知っててあんなに真剣に盛り上がってたのか…？￥
 	OutputLine(NULL, "　お前ら全員、最初から知っててあんなに真剣に盛り上がってたのか…？？",
-		   NULL, "¿¿Todas lo sabían desde el principio y se emocionaron tanto...??", Line_Normal);
+		   NULL, "¿¿Todas lo supieron desde el principio y se emocionaron tanto...??", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2320,7 +2320,7 @@
 
 //　右手はポケットから何かを取り出そうとしている＠
 	OutputLine(NULL, "　右手はポケットから何かを取り出そうとしている。",
-		   NULL, "Con su mano derecha se sacó algo del bolsillo.", Line_WaitForInput);
+		   NULL, "Con la mano derecha se sacó algo del bolsillo.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2333,7 +2333,7 @@
 
 //「さぁて…行くよぅぅぅ～！＠
 	OutputLine(NULL, "「さぁて…行くよぅぅぅ〜！」",
-		   NULL, "\"Okay... ¡Aquí voy~!\"", Line_WaitForInput);
+		   NULL, "\"Okey... ¡Aquí voy~!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2407,7 +2407,7 @@
 
 //　きっと昨日持ち帰り損ねた、かぁいいケンタくん人形を掘り出しに行くのだろう＠
 	OutputLine(NULL, "　きっと昨日持ち帰り損ねた、かぁいいケンタくん人形を掘り出しに行くのだろう。",
-		   NULL, "Probablemente era para sacar al 'lendo' Coronel Sanders que no pudo llevarse ayer.", Line_WaitForInput);
+		   NULL, "Probablemente era para sacar a ese 'lendo' Coronel Sanders que no pudo llevarse ayer.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2475,7 +2475,7 @@
 
 //　聞きたい話とは少し違ったが、聞いておこうと思った￥
 	OutputLine(NULL, "　聞きたい話とは少し違ったが、聞いておこうと思った。",
-		   NULL, "No era exactamente lo que quería oír, pero decidí escucharla igual.", Line_Normal);
+		   NULL, "No era exactamente lo que quería oír, pero decidí escucharla de todos modos.", Line_Normal);
 	ClearMessage();
 
 
@@ -2497,9 +2497,9 @@
 	OutputLine(NULL, "偉そうで威張ってた！",
 		   NULL, " ¡Un montón de engreídos!", Line_WaitForInput);
 	OutputLine(NULL, "　金で解決できないと悟るとあらゆる嫌がらせをしてきたんだよ？！",
-		   NULL, " ¡Cuando se dieron cuenta de que no podrían arreglarlo con dinero, hicieron cosas horribles!", Line_WaitForInput);
+		   NULL, " ¡Cuando se dieron cuenta de que no podían arreglarlo con dinero, hicieron cosas horribles!", Line_WaitForInput);
 	OutputLine(NULL, "　嫌らしいヤツらだった！」",
-		   NULL, " ¡Era gente muy desagradable!\"", Line_WaitForInput);
+		   NULL, " ¡Un montón de asquerosos!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2755,7 +2755,7 @@
 
 //　…実に迷惑なモチーフだ＠
 	OutputLine(NULL, "　…実に迷惑なモチーフだ。",
-		   NULL, "...Es un motivo bastante fastidioso.", Line_WaitForInput);
+		   NULL, "...Es un motivo bastante inconveniente.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2775,7 +2775,7 @@
 
 //　あーもー！　俺の部屋をモチーフにするのは勘弁してくれ…￥
 	OutputLine(NULL, "　あーもー！　俺の部屋をモチーフにするのは勘弁してくれ…！",
-		   NULL, "¡Ah, venga! ¡No uses mi cuarto como motivo...!", Line_Normal);
+		   NULL, "¡Ah, vamos! ¡No uses mi cuarto como motivo...!", Line_Normal);
 	ClearMessage();
 
 //「圭一、お夕飯までまだ時間があるから＠表でも散歩してらっしゃい。＠
@@ -2855,7 +2855,7 @@
 
 //　ちなみに暗くなった雛見沢の夜道はかなり薄気味悪いのだ＠
 	OutputLine(NULL, "　ちなみに暗くなった雛見沢の夜道はかなり薄気味悪いのだ。",
-		   NULL, "Los caminos de Hinamizawa me parecen espeluznantes en la noche.", Line_WaitForInput);
+		   NULL, "Los caminos de Hinamizawa me parecen espeluznantes durante la noche.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3091,7 +3091,7 @@
 
 //「え？…っな、なぁんだ。びっくりした…＠圭一くん驚かさないでよ。＠
 	OutputLine(NULL, "「え？…っな、なぁんだ。びっくりした…。",
-		   NULL, "\"¿Ehh? ...O-Oh, eso. Me asustaste...", Line_WaitForInput);
+		   NULL, "\"¿Ahh? ...O-Oh, eso. Me asustaste...", Line_WaitForInput);
 	OutputLine(NULL, "圭一くん驚かさないでよ。」",
 		   NULL, " No me alarmes así, Keiichi-kun.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -3428,7 +3428,7 @@
 
 //　レナが言葉をどもらせるとゆでダコみたいに真っ赤になった＠
 	OutputLine(NULL, "　レナが言葉をどもらせるとゆでダコみたいに真っ赤になった。",
-		   NULL, "Rena empezó a farfullar y puso de un rojo carmesí.", Line_WaitForInput);
+		   NULL, "Rena empezó a farfullar y se puso de un rojo carmesí.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -3724,7 +3724,7 @@
 
 //　好意で隠してくれていることをわざわざあばこうとしている……＠
 	OutputLine(NULL, "　好意で隠してくれていることをわざわざあばこうとしている……。",
-		   NULL, "Tratar de descubrir lo ocurrido después de que lo ocultaron, probablemente con buenas intenciones...", Line_WaitForInput);
+		   NULL, "Tratar de descubrir lo ocurrido después de que lo ocultaran, probablemente con buenas intenciones...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3915,7 +3915,7 @@
 
 //　文字通りの惨殺、残虐殺人だ…＠
 	OutputLine(NULL, "　文字通りの惨殺、残虐殺人だ…。",
-		   NULL, "Fue una masacre de manual, un asesinato brutal...", Line_WaitForInput);
+		   NULL, "Fue una masacre de manual, un asesinato despiadado...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -4043,7 +4043,7 @@
 
 //「…うん。＠
 	OutputLine(NULL, "「…うん。」",
-		   NULL, "\"...Sip.\"", Line_WaitForInput);
+		   NULL, "\"...Sí.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
