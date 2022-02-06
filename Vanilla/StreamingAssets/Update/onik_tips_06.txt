@@ -154,7 +154,7 @@
 
 //　毒食らわば皿まで...ということなのか＠
 	OutputLine(NULL, "　毒食らわば皿まで…ということなのか。",
-		   NULL, "'Qué le hace una mancha más al tigre'... eso significa.", Line_WaitForInput);
+		   NULL, "'Qué le hace una raya más al tigre'... eso significa.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
