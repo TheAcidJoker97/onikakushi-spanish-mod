@@ -560,7 +560,7 @@
 
 //　雛見沢を水没させようとする悪のダム工事に守り神さまがバチを当てた、ってことなのだろう￥
 	OutputLine(NULL, "　雛見沢を水没させようとする悪のダム工事に守り神さまがバチを当てた、ってことなのだろう。",
-		   NULL, "Su entidad guardiana conjuró un castigo divino sobre la malvada represa por intentar inundar Hinamizawa.", Line_Normal);
+		   NULL, "Su entidad guardiana conjuró un castigo divino sobre la malvada represa por tratar de inundar Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -568,7 +568,7 @@
 
 //「若い人たちはそうは思わなかったみたいだけれど…＠お年寄りたちはオヤシロさまの祟りだと疑わなかったみたいね。＠
 	OutputLine(NULL, "「若い人たちはそうは思わなかったみたいだけれど…。",
-		   NULL, "\"Aparentemente los jóvenes no se lo creen...", Line_WaitForInput);
+		   NULL, "\"Aparentemente los jóvenes no se lo creyeron...", Line_WaitForInput);
 	OutputLine(NULL, "お年寄りたちはオヤシロさまの祟りだと疑わなかったみたいね。」",
 		   NULL, " Pero los ancianos de la aldea nunca dudaron que fue obra de la maldición de Oyashiro-sama.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -622,7 +622,7 @@
 
 //　富竹さんも女の人も、笑顔のままだったが、目からは笑いは消えていた￥
 	OutputLine(NULL, "　富竹さんも女の人も、笑顔のままだったが、目からは笑いは消えていた。",
-		   NULL, "Los labios de la mujer seguían curvados en una sonrisa, pero su expresión era seria ahora.", Line_Normal);
+		   NULL, "Los labios de la mujer seguían curvados en una sonrisa, pero su mirada era seria ahora.", Line_Normal);
 	ClearMessage();
 
 
@@ -759,7 +759,7 @@
 
 //「その通りよ。＠
 	OutputLine(NULL, "「その通りよ。」",
-		   NULL, "\"Exactamente.\"", Line_WaitForInput);
+		   NULL, "\"Exacto.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1224,7 +1224,7 @@
 
 //　女の人は緩く髪をかきあげながらため息をつく＠
 	OutputLine(NULL, "　女の人は緩く髪をかきあげながらため息をつく。",
-		   NULL, "Suspiró la mujer mientras sus dedos se paseaban entre su cabello.", Line_WaitForInput);
+		   NULL, "Suspiró la mujer mientras pasaba los dedos por entre su cabello.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1816,7 +1816,7 @@
 
 //「……思うに梨花ちゃんて、…結構タヌキだろ。＠
 	OutputLine(NULL, "「……思うに梨花ちゃんて、…結構タヌキだろ。」",
-		   NULL, "\"...Ahora que lo pienso, Rika-chan es toda una embaucadora.\"", Line_WaitForInput);
+		   NULL, "\"...Ahora que lo pienso, Rika-chan tiene muchos ases bajo la manga.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1905,7 +1905,7 @@
 
 //「わわ！　なんだいなんだい？＠　お手柔らかに頼むよ？！￥
 	OutputLine(NULL, "「わわ！　なんだいなんだい？！",
-		   NULL, "\"¡Wow, wow! ¿¡Qué está pasando!?", Line_WaitForInput);
+		   NULL, "\"¡Oigan, oigan! ¿¡Qué está pasando!?", Line_WaitForInput);
 	OutputLine(NULL, "　お手柔らかに頼むよ？！」",
 		   NULL, " ¡¡No sean tan malos conmigo por favor!!\"", Line_Normal);
 	ClearMessage();
@@ -2291,7 +2291,7 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　…………ぅ、うん！",
-		   NULL, " ...¡O-Okay!", Line_WaitForInput);
+		   NULL, " ...¡O-Okey!", Line_WaitForInput);
 	OutputLine(NULL, "　聞こえるくらい、大きな声を出すね！」",
 		   NULL, " ¡Gritaré muy fuerte para que me escuches!\"", Line_Normal);
 	ClearMessage();
@@ -2322,7 +2322,7 @@
 
 //　誰もが微塵ほども口にしない祟りの話＠……知れば知るほどに不安になる、今夜￥
 	OutputLine(NULL, "　誰もが微塵ほども口にしない祟りの話。",
-		   NULL, "Una maldición de la que hablaba ni susurrando.", Line_WaitForInput);
+		   NULL, "Una maldición de la que no se hablaba ni susurrando.", Line_WaitForInput);
 	OutputLine(NULL, "……知れば知るほどに不安になる、今夜。",
 		   NULL, " ...Entre más cosas aprendía, más ansioso me ponía esa noche.", Line_Normal);
 	ClearMessage();
