@@ -398,7 +398,7 @@
 
 //「……ま、負けないからね。＠
 	OutputLine(NULL, "「……ま、負けないからね。」",
-		   NULL, "\"...N-No perderé ¿me oyen?.\"", Line_WaitForInput);
+		   NULL, "\"...N-No perderé ¿me oyen?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1359,7 +1359,7 @@
 
 //「うん。わかったね！￥
 	OutputLine(NULL, "「うん。わかったね！」",
-		   NULL, "\"Okay. ¡Entendido!\"", Line_Normal);
+		   NULL, "\"Okey. ¡Entendido!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2292,7 +2292,7 @@
 
 //　これを怪死と言わなくてなんと言う…＠
 	OutputLine(NULL, "　これを怪死と言わなくてなんと言う…？",
-		   NULL, "Si esta no es una de las muertes misteriosas, no sé qué lo es...", Line_WaitForInput);
+		   NULL, "Si esta no es una de las muertes misteriosas, no sé qué lo sea...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3012,7 +3012,7 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………俺だって言うのか…ッ？！",
-		   NULL, "...¿¡Está insinuando que seré yo...!?", Line_Normal);
+		   NULL, "... ¿¡Está insinuando que seré yo...!?", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys15", 128, 0 );
@@ -3262,7 +3262,7 @@
 
 //　機械的な涼しさの車内とは対照的に、意地悪するような暑さ…＠
 	OutputLine(NULL, "　機械的な涼しさの車内とは対照的に、意地悪するような暑さ…。",
-		   NULL, "Era un calor desagradable, todo lo contrario al mecánico frío al interior del auto.", Line_WaitForInput);
+		   NULL, "Un calor desagradable, todo lo contrario al mecánico frío al interior del auto.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3500,7 +3500,7 @@
 
 //　……派手に自爆したようだな、おい￥
 	OutputLine(NULL, "　……派手に自爆したようだな、おい。",
-		   NULL, "...Parece que se autodestruyó, wow.", Line_Normal);
+		   NULL, "...Parece que se autodestruyó, rayos.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3794,7 +3794,7 @@
 
 //おじさんが買って欲しいものはね、このメモに書いてあるから～！￥
 	OutputLine(NULL, "おじさんが買って欲しいものはね、このメモに書いてあるから〜！」",
-		   NULL, " ¡Este viejo ya tiene una lista en esta hoja de papel~!\"", Line_Normal);
+		   NULL, " ¡Este vejestorio ya tiene una lista en esta hoja de papel~!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3803,7 +3803,7 @@
 	PlayBGM( 1, "msys03", 128, 0 );
 //「わぁ……いっぱい書いてあるよ…。＠
 	OutputLine(NULL, "「わぁ……いっぱい書いてあるよ…。」",
-		   NULL, "\"Wow... Escribió muchas cosas...\"", Line_WaitForInput);
+		   NULL, "\"Guau... Escribió muchas cosas...\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
