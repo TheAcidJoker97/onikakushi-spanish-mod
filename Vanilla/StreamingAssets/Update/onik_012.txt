@@ -104,7 +104,7 @@
 
 //　こうして何事もなく、朝の食卓に着けることに安堵を覚えずにはいられなかった￥
 	OutputLine(NULL, "　こうして何事もなく、朝の食卓に着けることに安堵を覚えずにはいられなかった。",
-		   NULL, "Llegué a la mesa para desayunar sin problemas, pero no me sentía en paz.", Line_Normal);
+		   NULL, "Llegué sin dificultades a la mesa para desayunar, pero no me sentía en paz.", Line_Normal);
 	ClearMessage();
 
 
@@ -181,7 +181,7 @@
 
 //　…いつものレナとの待ち合わせの時間から１０分以上が過ぎていた＠………レナだ￥
 	OutputLine(NULL, "　…いつものレナとの待ち合わせの時間から１０分以上が過ぎていた。",
-		   NULL, "...Eran diez minutos después de la hora a la que normalmente me encuentro con ella.", Line_WaitForInput);
+		   NULL, "...Eran diez minutos después de la hora a la que normalmente me encontraba con ella.", Line_WaitForInput);
 	OutputLine(NULL, "………レナだ。",
 		   NULL, " ...Era Rena.", Line_Normal);
 	ClearMessage();
@@ -471,7 +471,7 @@
 
 //　…ちょっと大袈裟かなとは思ったが、昨日までの陰鬱さがこれで払拭できるなら安いものだ￥
 	OutputLine(NULL, "　…ちょっと大袈裟かなとは思ったが、昨日までの陰鬱さがこれで払拭できるなら安いものだ。",
-		   NULL, "...Creo que fue un poco exagerado, pero si con eso se despeja el oscuro estado de humor que tengo últimamente, valdrá la pena.", Line_Normal);
+		   NULL, "...Creo que fue un poco exagerado, pero si con eso se despeja el oscuro estado de ánimo que tengo últimamente, valdrá la pena.", Line_Normal);
 	ClearMessage();
 
 
@@ -995,7 +995,7 @@
 	PlayBGM( 1, "msys01", 128, 0 );
 //　賑わっているが、この時間にいるのは大人の人ばかりだ。平日の日中に子供がいるわけがない＠
 	OutputLine(NULL, "　賑わっているが、この時間にいるのは大人の人ばかりだ。平日の日中に子供がいるわけがない。",
-		   NULL, "Estaba repleto, pero solo había adultos a esta hora. Evidentemente no habría niños aquí en pleno horario escolar.", Line_WaitForInput);
+		   NULL, "Estaba repleto, pero solo había adultos a esa hora. Evidentemente no habría niños aquí en pleno horario escolar.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1889,7 +1889,7 @@
 	OutputLine(NULL, "「実は調べてみたら、竜宮さんは引越しの少し前に、学校で謹慎処分を受けているんですよ。",
 		   NULL, "\"De hecho, la investigué. Antes de que Ryuugu-san se mudara a Hinamizawa, fue suspendida en su escuela.", Line_WaitForInput);
 	OutputLine(NULL, "何でも、学校中のガラスを割って回ったんだとか。」",
-		   NULL, " Parece que recorrió su escuela rompiendo todas las ventanas.\"", Line_WaitForInput);
+		   NULL, " Parece que recorrió el edificio rompiendo todas las ventanas.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2343,7 +2343,7 @@
 
 //「これは…この道、３０年の勘です＠……前原さん。危ないのはあなたなんですよ。＠
 	OutputLine(NULL, "「これは…この道、３０年の勘です。",
-		   NULL, "\"Esto es... en gran parte la intuición de mis treinta años de trabajo.", Line_WaitForInput);
+		   NULL, "\"Esto es... en gran parte, la intuición de mis treinta años de trabajo.", Line_WaitForInput);
 	OutputLine(NULL, "……前原さん。危ないのはあなたなんですよ。」",
 		   NULL, " ...Maebara-san. Tú eres quien está en peligro.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2424,7 +2424,7 @@
 
 //　車の外は暑かった＠セミの喧騒も耳に痛い￥
 	OutputLine(NULL, "　車の外は暑かった。",
-		   NULL, "Hacía mucho calor al exterior el auto.", Line_WaitForInput);
+		   NULL, "Hacía mucho calor al exterior del auto.", Line_WaitForInput);
 	OutputLine(NULL, "セミの喧騒も耳に痛い。",
 		   NULL, " El canto de las cigarras hería mis oídos.", Line_Normal);
 	ClearMessage();
@@ -2768,7 +2768,7 @@
 
 //「おじさんもレナもおバカさんだから大丈夫＠　じゃね＠　すぐ行くから！￥
 	OutputLine(NULL, "「おじさんもレナもおバカさんだから大丈夫！",
-		   NULL, "\"¡El viejo y Rena son demasiado torpes para atrapar un resfriado!", Line_WaitForInput);
+		   NULL, "\"¡El vejestorio y Rena son demasiado torpes para atrapar un resfriado!", Line_WaitForInput);
 	OutputLine(NULL, "　じゃね！",
 		   NULL, " ¡Nos vemos!", Line_WaitForInput);
 	OutputLine(NULL, "　すぐ行くから！」",
@@ -2928,7 +2928,7 @@
 
 //「うん＠あ、その中にね、レナが作ったのも混じってるんだよ＠　圭一くんに見つけられるかなぁ…。＠
 	OutputLine(NULL, "「うん。",
-		   NULL, "\"Okay.", Line_WaitForInput);
+		   NULL, "\"Okey.", Line_WaitForInput);
 	OutputLine(NULL, "あ、その中にね、レナが作ったのも混じってるんだよ！",
 		   NULL, " ¡Ah, ahí dentro va uno que hice yo!", Line_WaitForInput);
 	OutputLine(NULL, "　圭一くんに見つけられるかなぁ…。」",
@@ -3243,7 +3243,7 @@
 	OutputLine(NULL, "「………さぁてね。",
 		   NULL, "\"...Porque...", Line_WaitForInput);
 	OutputLine(NULL, "…おじさんにわからないことはないからね。」",
-		   NULL, " ...no hay nada que este viejo no sepa.\"", Line_WaitForInput);
+		   NULL, " ...no hay nada que este vejestorio no sepa.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3299,9 +3299,9 @@
 
 //「ま、何を隠れてやろうとも、おじさんには全てお見通しってこと＠…それだけを忘れないでくれればいいかなぁ。＠
 	OutputLine(NULL, "「ま、何を隠れてやろうとも、おじさんには全てお見通しってこと。",
-		   NULL, "\"Bueno, no importa lo que intentes ocultar... Este viejo ya se hace una idea.", Line_WaitForInput);
+		   NULL, "\"Bueno, no importa lo que intentes ocultar... Este vejestorio ya se hace una idea.", Line_WaitForInput);
 	OutputLine(NULL, "…それだけを忘れないでくれればいいかなぁ。」",
-		   NULL, " ¿Podrás recordar eso?\"", Line_WaitForInput);
+		   NULL, " Recuérdalo.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3575,7 +3575,7 @@
 
 //　俺はいつからこんなネガティブなことしか考えない男になったんだ？＠
 	OutputLine(NULL, "　俺はいつからこんなネガティブなことしか考えない男になったんだ？！",
-		   NULL, "¿Cuándo me volví tan pesimista?", Line_WaitForInput);
+		   NULL, "¿Cuándo te volviste tan pesimista?", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -3641,7 +3641,7 @@
 
 //　俺が大石さんに会ったことを変に濁したので、レナに正されただけなんだ＠
 	OutputLine(NULL, "　俺が大石さんに会ったことを変に濁したので、レナに正されただけなんだ。",
-		   NULL, "Simplemente fui muy ambiguo cuando hablamos del momento que conocí a Ooishi-san y Rena solo intentó corregirme.", Line_WaitForInput);
+		   NULL, "Simplemente fui muy ambiguo cuando hablamos del momento en que conocí a Ooishi-san y Rena solo intentó corregirme.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -4138,7 +4138,7 @@
 
 //　高級和菓子を思わせる繊細な作り＠
 	OutputLine(NULL, "　高級和菓子を思わせる繊細な作り。",
-		   NULL, "Una creación tan delicada que uno creería que era un sofisticado postre Japonés.", Line_WaitForInput);
+		   NULL, "Una creación tan delicada que uno creería que era un sofisticado postre japonés.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
