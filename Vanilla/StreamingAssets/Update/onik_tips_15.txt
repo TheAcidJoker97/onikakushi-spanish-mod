@@ -53,7 +53,7 @@
 
 //ＸＸ県警察本部
 	OutputLine(NULL, "ＸＸ県警察本部",
-		   NULL, "XX Cuartel general de la Policía Prefectural.", Line_ContinueAfterTyping);
+		   NULL, "Cuartel general de la Policía Prefectural de XX.", Line_ContinueAfterTyping);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
