@@ -26,7 +26,7 @@
 
 //「わぁ…圭一くん、でっかいあくび。＠
 	OutputLine(NULL, "「わぁ…圭一くん、でっかいあくび。」",
-		   NULL, "\"Wow... Ese fue un bostezo muy grande, Keiichi-kun.\"", Line_WaitForInput);
+		   NULL, "\"Guau... Ese fue un bostezo muy grande, Keiichi-kun.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -263,7 +263,7 @@
 
 //　………大石さんのことを逆恨みせずにはいられなかった￥
 	OutputLine(NULL, "　………大石さんのことを逆恨みせずにはいられなかった。",
-		   NULL, "...No pude hacer más que enfadarme con Ooishi-san por eso.", Line_Normal);
+		   NULL, "...No pude evitar enfadarme con Ooishi-san por eso.", Line_Normal);
 	ClearMessage();
 
 
@@ -518,7 +518,7 @@
 
 //　次に気になったのは、レナのもう一人いるんだよね、という言葉だ＠
 	OutputLine(NULL, "　次に気になったのは、レナのもう一人いるんだよね、という言葉だ。",
-		   NULL, "Lo siguiente que me llamó la atención fue cuando Rena dijo: \"hubo otro, ¿cierto?\".", Line_WaitForInput);
+		   NULL, "Lo siguiente que me llamó la atención fue cuando Rena dijo: \"hubo otro, ¿cierto?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -690,7 +690,7 @@
 	OutputLine(NULL, "　圭一さぁん！",
 		   NULL, " ¡Keiichi-saan!", Line_WaitForInput);
 	OutputLine(NULL, "　お起きなさいなぁ！！」",
-		   NULL, " ¡¡Ha llegado la hora de levantarse!!\"", Line_WaitForInput);
+		   NULL, " ¡¡Llegó la hora de levantarse!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -777,7 +777,7 @@
 
 //　いつのまにか…俺の両足の靴紐が結び付けられていたのだ￥
 	OutputLine(NULL, "　いつのまにか…俺の両足の靴紐が結び付けられていたのだ！",
-		   NULL, "¡Los cordones de mis zapatos estaban atados entre ellos!", Line_Normal);
+		   NULL, "¡Los cordones de mis zapatos estaban atados entre sí!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -913,7 +913,7 @@
 
 //　委員長モードの魅音に促され、俺は着席することにした￥
 	OutputLine(NULL, "　委員長モードの魅音に促され、俺は着席することにした。",
-		   NULL, "Me senté en cuanto Mion lo ordenó. Estaba en modo 'representante de la clase'.", Line_Normal);
+		   NULL, "Me senté en cuanto Mion lo ordenó. Estaba en modo 'delegada de la clase'.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1039,7 +1039,7 @@
 	OutputLine(NULL, "　ホントすっかり忘れてた。……じゃあごめんねみんな！",
 		   NULL, " En verdad lo olvidé... ¡Lo lamento, gente!", Line_WaitForInput);
 	OutputLine(NULL, "　今日はおじさん、これで帰るわぁ！」",
-		   NULL, " ¡Este viejo tiene que volver a casa ahora!\"", Line_WaitForInput);
+		   NULL, " ¡Este vejestorio tiene que volver a casa ahora!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1066,7 +1066,7 @@
 
 //　へぇ…そんな面倒臭いこと、絶対に引き受けないヤツだと思ってたけどなぁ＠
 	OutputLine(NULL, "　へぇ…そんな面倒臭いこと、絶対に引き受けないヤツだと思ってたけどなぁ。",
-		   NULL, "Ahh... nunca creí aceptaría hacerse cargo de algo tan problemático.", Line_WaitForInput);
+		   NULL, "Ahh... nunca creí que aceptara hacerse cargo de algo tan problemático.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2066,7 +2066,7 @@
 	OutputLine(NULL, "「……いやごめん。",
 		   NULL, "\"...No, perdona.", Line_WaitForInput);
 	OutputLine(NULL, "独り言。」",
-		   NULL, " Hablaba conmigo mismo.\"", Line_WaitForInput);
+		   NULL, " Estaba pensando en voz alta.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2757,7 +2757,7 @@
 
 //　ふと意識が戻り、階下の母が呼んでいるのが聞こえた￥
 	OutputLine(NULL, "　ふと意識が戻り、階下の母が呼んでいるのが聞こえた。",
-		   NULL, "Finalmente, volví en mí en cuanto escuché a mi madre llamándome desde las escaleras.", Line_Normal);
+		   NULL, "Finalmente, volví en mí cuando escuché a mi madre llamándome desde las escaleras.", Line_Normal);
 	ClearMessage();
 
 
@@ -2774,7 +2774,7 @@
 	OutputLine(NULL, "　本屋？",
 		   NULL, "¿Librería?", Line_WaitForInput);
 	OutputLine(NULL, "　電話を受けるような覚えはない。",
-		   NULL, " No se me ocurre una razón para que me llamen.", Line_Normal);
+		   NULL, " No veo por qué me llamarían.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3021,13 +3021,13 @@
 
 //　５年連続で人が怪死していることはすでに知っている＠
 	OutputLine(NULL, "　５年連続で人が怪死していることはすでに知っている。",
-		   NULL, "Ya sabía que habían ocurrido muertes misteriosas durante los últimos cinco años.", Line_WaitForInput);
+		   NULL, "Ya sabía sobre las muertes misteriosas ocurridas durante los últimos cinco años.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
 //　…だが、それと同時に５年連続で人が消えているという話は聞いていない￥
 	OutputLine(NULL, "　…だが、それと同時に５年連続で人が消えているという話は聞いていない。",
-		   NULL, "...Pero no sabía que habían ocurrido desapariciones en esos mismos cinco años.", Line_Normal);
+		   NULL, "...Pero no sabía que también ocurrieron desapariciones en esos mismos cinco años.", Line_Normal);
 	ClearMessage();
 
 
@@ -3163,7 +3163,7 @@
 	OutputLine(NULL, "妻は死体が上がりませんでしたから。",
 		   NULL, " Nunca apareció el cadáver de la esposa.", Line_WaitForInput);
 	OutputLine(NULL, "………現行法では死体が発見されない限り行方不明扱いなんですよ。」",
-		   NULL, " ...A no ser que encontremos su cuerpo, por ley debemos considerarla como perdida.\"", Line_Normal);
+		   NULL, " ...A no ser que encontremos su cuerpo, por ley debemos considerarla como desaparecida.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -3898,7 +3898,7 @@
 
 //「もーぅ、はぐらかすなよ圭一～＠入るぞー。＠
 	OutputLine(NULL, "「もーぅ、はぐらかすなよ圭一〜。",
-		   NULL, "\"Venga. No me engañas, Keiichi~.", Line_WaitForInput);
+		   NULL, "\"Vamos. A mí no me engañas, Keiichi~.", Line_WaitForInput);
 	OutputLine(NULL, "入るぞー。」",
 		   NULL, " Voy a entrar~.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4022,7 +4022,7 @@
 
 //「レナちゃんが２階に上がったのが半くらいだったから…小１時間くらいかな？＠
 	OutputLine(NULL, "「レナちゃんが２階に上がったのが半くらいだったから…小１時間くらいかな？」",
-		   NULL, "\"Rena-chan subió las escaleras a la mitad tu llamada, así que... casi una hora, ¿tal vez?\"", Line_WaitForInput);
+		   NULL, "\"Rena-chan subió las escaleras a la mitad de tu llamada, así que... casi una hora, ¿tal vez?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
