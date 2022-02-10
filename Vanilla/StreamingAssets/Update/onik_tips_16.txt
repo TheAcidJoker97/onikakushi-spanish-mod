@@ -101,7 +101,7 @@
 	OutputLine(NULL, "…躁の状態もまた自殺をせん。",
 		   NULL, " Y la manía por sí sola no lleva al suicidio.", Line_WaitForInput);
 	OutputLine(NULL, "　今度は逆に、非常に自信過剰で行動的なので、自らを順風満帆と思う。",
-		   NULL, " Tiene el efecto contrario, llena a la persona de confianza y las hace sentir que levitan sobre el suelo.", Line_WaitForInput);
+		   NULL, " Tiene el efecto contrario, llena a la persona de confianza y le hace sentir que levita sobre el suelo.", Line_WaitForInput);
 	OutputLine(NULL, "だから自殺などせんのだ。」",
 		   NULL, " Por lo cual, tampoco cometen suicidio.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -135,7 +135,7 @@
 	OutputLine(NULL, "「そういうことじゃの。",
 		   NULL, "\"Así es como funciona.", Line_WaitForInput);
 	OutputLine(NULL, "だからこの時期に変な気を起こさんように、向精神薬をたっぷりと処方するわけじゃな。」",
-		   NULL, " Es por eso que se les dan sedantes a los pacientes durante ese tiempo y los protege de actuar impulsivamente.\"", Line_Normal);
+		   NULL, " Es por eso que se les dan sedantes a los pacientes durante ese tiempo. Los protege de actuar impulsivamente.\"", Line_Normal);
 	ClearMessage();
 
 //「...では富竹氏はこの躁鬱病患者だったんですかねぇ？＠
