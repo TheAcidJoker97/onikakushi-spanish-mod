@@ -79,7 +79,7 @@
 
 //　あぁ、体はまだ目覚めないのか＠　今、部屋に踏み込まれたら……！￥
 	OutputLine(NULL, "　あぁ、体はまだ目覚めないのか？",
-		   NULL, "Venga, ¿por qué mi cuerpo no ha despertado todavía?", Line_WaitForInput);
+		   NULL, "Rayos, ¿por qué mi cuerpo no ha despertado todavía?", Line_WaitForInput);
 	OutputLine(NULL, "　今、部屋に踏み込まれたら……！！",
 		   NULL, " ¡¡Si entraran a mi cuarto en este momento... entonces...!!", Line_Normal);
 	ClearMessage();
@@ -216,7 +216,7 @@
 
 //　あるいは口の中に、舌に突き刺さっていたなら…￥
 	OutputLine(NULL, "　あるいは口の中に、舌に突き刺さっていたなら…？",
-		   NULL, "¿O si me hubiese atravesado la lengua...?", Line_Normal);
+		   NULL, "¿O si me hubiese perforado la lengua...?", Line_Normal);
 	ClearMessage();
 
 //　殺意は間違いなかったが、それでも…完全なものじゃなかった＠
@@ -357,7 +357,7 @@
 
 //　俺がもぞもぞと寝床を抜け出すのを確認すると、お袋は階下へ降りていった￥
 	OutputLine(NULL, "　俺がもぞもぞと寝床を抜け出すのを確認すると、お袋は階下へ降りていった。",
-		   NULL, "Bajó las escaleras en cuanto se aseguró que estaba levantado.", Line_Normal);
+		   NULL, "Bajó las escaleras en cuanto se aseguró de que estaba levantado.", Line_Normal);
 	ClearMessage();
 
 //　魅音が昨日、帰り際に言った!s500「明日、休んじゃ嫌だよ？」!sdという言葉がねっとりと脳裏に蘇った＠
@@ -500,7 +500,7 @@
 
 //　…知りえない何かのルールに違反してしまった俺に……チャンスを与えてくれたのだ￥
 	OutputLine(NULL, "　…知りえない何かのルールに違反してしまった俺に……チャンスを与えてくれたのだ。",
-		   NULL, "...Me está dando una segunda oportunidad a mí... a pesar de romper una de sus reglas por error.", Line_Normal);
+		   NULL, "...Me está dando una segunda oportunidad... a pesar de que rompí una de sus reglas por error.", Line_Normal);
 	ClearMessage();
 
 //　俺が犯した何かは…本当は許されないものなのだろう…＠
@@ -785,7 +785,7 @@
 
 //「なのに沙都子ちゃんね、絶対にできるって意地になっちゃってー！＠
 	OutputLine(NULL, "「なのに沙都子ちゃんね、絶対にできるって意地になっちゃってー！」",
-		   NULL, "\"¡Pero Satoko-chan fue muy necia e insistió en que podía hacerlo-!\"", Line_WaitForInput);
+		   NULL, "\"¡Pero Satoko-chan fue muy necia e insistió en que podía hacerlo!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -950,7 +950,7 @@
 	OutputLine(NULL, "　もしも神様がひとつ願いをかなえてくれるなら…。",
 		   NULL, "Si Dios pudiera concederme un deseo...", Line_WaitForInput);
 	OutputLine(NULL, "俺が望むことはひとつしかない。",
-		   NULL, " Solo podría desear una cosa...", Line_Normal);
+		   NULL, " Solo podría pedir una cosa...", Line_Normal);
 	ClearMessage();
 
 //　この何日間かの出来事＠
@@ -1356,7 +1356,7 @@
 	OutputLine(NULL, "「実は調べてみたら、竜宮さんは引越しの少し前に、学校で謹慎処分を受けているんですよ。",
 		   NULL, "\"De hecho, la investigué. Antes de que Ryuugu-san se mudara a Hinamizawa, fue suspendida en su escuela.", Line_WaitForInput);
 	OutputLine(NULL, "何でも、学校中のガラスを割って回ったんだとか。」",
-		   NULL, " Parece que recorrió su escuela rompiendo todas las ventanas.\"", Line_Normal);
+		   NULL, " Parece que recorrió el edificio rompiendo todas las ventanas.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlayBGM( 2, "lsys15", 128, 0 );
@@ -1366,7 +1366,7 @@
 	OutputLine(NULL, "　レナには…常人とはかけはなれた魔性があるのだ。",
 		   NULL, "Rena tiene una condición... que la gente normal no tiene.", Line_WaitForInput);
 	OutputLine(NULL, "どんなにさわやかな笑顔で笑っていても……その事実はかわらない。",
-		   NULL, " Sin importar qué tan alegre fuera su sonrisa... ese hecho no va a cambiar.", Line_WaitForInput);
+		   NULL, " Sin importar qué tan alegre sea su sonrisa... ese hecho no va a cambiar.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1507,7 +1507,7 @@
 
 //　……真っ青になって息をすることも忘れてしまったクラスメートたち＠
 	OutputLine(NULL, "　……真っ青になって息をすることも忘れてしまったクラスメートたち。",
-		   NULL, "...Los compañeros de Rena palidecieron, parece que incluso olvidaron como respirar.", Line_WaitForInput);
+		   NULL, "...Los compañeros de Rena palidecieron, parece que incluso olvidaron cómo respirar.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1679,7 +1679,7 @@
 
 //　いくら叩いても他のガラスのような軽快な音が出ないのだから￥
 	OutputLine(NULL, "　いくら叩いても他のガラスのような軽快な音が出ないのだから。",
-		   NULL, "Y era porque sin importar cuántas veces me golpeara, nunca producía un sonido tan satisfactorio como el de las otras ventanas.", Line_Normal);
+		   NULL, "Y era porque, sin importar cuántas veces me golpeara, nunca produciría un sonido tan satisfactorio como el de las otras ventanas.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_008", 128, 64 );
@@ -2125,7 +2125,7 @@
 
 //「おっはよー☆　沙都子ちゃんに梨花ちゃ～ん！￥
 	OutputLine(NULL, "「おっはよー☆　沙都子ちゃんに梨花ちゃ〜ん！」",
-		   NULL, "\"¡Buenos días-☆ Satoko-chan, Rika-chan~!\"", Line_Normal);
+		   NULL, "\"¡Buenos días.☆ Satoko-chan, Rika-chan~!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "bg_109", "left", 0, 0, 300 );
@@ -2146,7 +2146,7 @@
 
 //「な、なんなんですの…＠　張り合いがありませんわ。＠
 	OutputLine(NULL, "「な、なんなんですの…？",
-		   NULL, "\"¿Qu-Qu-Qué ha pasado...?", Line_WaitForInput);
+		   NULL, "\"¿Qu-Qu-Qué pasó...?", Line_WaitForInput);
 	OutputLine(NULL, "　張り合いがありませんわ。」",
 		   NULL, " Eso ha sido muy desalentador.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -2251,7 +2251,7 @@
 	OutputLine(NULL, "「…やっぱ食欲がなくてさ。",
 		   NULL, "\"...La verdad no tenía mucho apetito.", Line_WaitForInput);
 	OutputLine(NULL, "…いくつかは食べたけど、だいぶ残しちゃったんだ。」",
-		   NULL, " ...Comí unos cuantos, pero sobraron muchosr.\"", Line_WaitForInput);
+		   NULL, " ...Comí unos cuantos, pero sobraron muchos.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2568,7 +2568,7 @@
 
 //　そのレナは部屋の前で１時間も聞き耳を立ててたんだぞ？＠
 	OutputLine(NULL, "　そのレナは部屋の前で１時間も聞き耳を立ててたんだぞ？！",
-		   NULL, "Rena estuvo espiándote mientras estaba parada frente a tu puerta por casi una hora, ¿¡recuerdas!?", Line_WaitForInput);
+		   NULL, "Rena estuvo parada frente a tu puerta espiándote por casi una hora, ¿¡recuerdas!?", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2663,7 +2663,7 @@
 
 //　先週の日曜日まで楽しく笑い合ってた仲間たちが…自分に殺意を抱いてるなんて…急に信じられるかよ…？！!w600　なぁ…＠
 	OutputLine(NULL, "　先週の日曜日まで楽しく笑い合ってた仲間たちが…自分に殺意を抱いてるなんて…急に信じられるかよ…？！",
-		   NULL, "¿¡Y de repente debo creer... que mis amigas, con quienes estuve riendo alegremente hasta en domingo pasado... tienen intenciones de matarme...!?", Line_ContinueAfterTyping);
+		   NULL, "¿¡Y de repente debo creer... que mis amigas, con quienes estuve riendo alegremente hasta el domingo pasado... tienen intenciones de matarme...!?", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 600 );
@@ -3057,7 +3057,7 @@
 
 //　怪しげな企みをしていて、俺の挙動を虎視眈々と伺っている連中なんだ！＠
 	OutputLine(NULL, "　怪しげな企みをしていて、俺の挙動を虎視眈々と伺っている連中なんだ！！",
-		   NULL, "¡¡Están planeando algo, vigilan todos mis movimientos!!", Line_WaitForInput);
+		   NULL, "¡¡Están planeando algo, vigilan todos tus movimientos!!", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -3929,7 +3929,7 @@
 
 //　心配をかけて申し訳ないが、今は俺の部屋の「時計」を意識さえしてくれればいい＠
 	OutputLine(NULL, "　心配をかけて申し訳ないが、今は俺の部屋の「時計」を意識さえしてくれればいい。",
-		   NULL, "Me sentí mal por preocuparlos, pero en este momento necesitaba que se centraran en el \"reloj\" de mi habitación.", Line_WaitForInput);
+		   NULL, "Me sentí mal por preocuparlos, pero en ese momento necesitaba que se centraran en el \"reloj\" de mi habitación.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
