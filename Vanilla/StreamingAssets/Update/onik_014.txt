@@ -1152,7 +1152,7 @@
 
 //　…だが、最悪の事態から目を逸らすことの方が、かえって恐ろしいことのように思える…￥
 	OutputLine(NULL, "　…だが、最悪の事態から目を逸らすことの方が、かえって恐ろしいことのように思える…。",
-		   NULL, "Pero también sabía que no considerar el peor caso posible sería aún más espantoso...", Line_Normal);
+		   NULL, "Pero también sabía que no considerar el peor caso posible sería todavía más espantoso...", Line_Normal);
 	ClearMessage();
 
 //　とにかく生き残るんだ＠
@@ -1669,7 +1669,7 @@
 
 //「わ、圭一くん、…野球部だよ＠　野球部だよ？？＠
 	OutputLine(NULL, "「わ、圭一くん、…野球部だよ？",
-		   NULL, "\"Wow, Keiichi-kun... ¿estás en el equipo de béisbol?", Line_WaitForInput);
+		   NULL, "\"Guau, Keiichi-kun... ¿estás en el equipo de béisbol?", Line_WaitForInput);
 	OutputLine(NULL, "　野球部だよ？？」",
 		   NULL, " ...¿¿En el equipo de béisbol??\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1724,7 +1724,7 @@
 
 //「……レナ。変な想像しなくていいぞ。＠
 	OutputLine(NULL, "「……レナ。変な想像しなくていいぞ。」",
-		   NULL, "\"...Rena, no tienes que imaginar cosas raras.\"", Line_WaitForInput);
+		   NULL, "\"...Rena, no te imagines cosas raras.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1742,7 +1742,7 @@
 	OutputLine(NULL, "「じゃあまぁ、頑張って県大会を目指してちょうだいよ。",
 		   NULL, "\"Bueno, espero que puedas llegar a las regionales, por lo menos.", Line_WaitForInput);
 	OutputLine(NULL, "おじさん、応援してるわ。」",
-		   NULL, " Este viejo te apoya.\"", Line_WaitForInput);
+		   NULL, " Este vejestorio te apoya.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1884,7 +1884,7 @@
 
 //「前原圭一の馬鹿野郎ッ！！！！！　だからッ！＠
 	OutputLine(NULL, "「前原圭一の馬鹿野郎ッ！！！！！　だからッ！」",
-		   NULL, "\"¡¡¡¡¡Serás imbécil, Keiichi Maebara!!!!! ¡Venga!\"", Line_WaitForInput);
+		   NULL, "\"¡¡¡¡¡Serás imbécil, Keiichi Maebara!!!!! ¡Vamos!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1956,7 +1956,7 @@
 	OutputLine(NULL, "殴る。",
 		   NULL, " Golpea.", Line_WaitForInput);
 	OutputLine(NULL, "殺されてたまるか。",
-		   NULL, " Cómo si me fuera a dejar matar...", Line_WaitForInput);
+		   NULL, " Como si fuera a dejarme matar...", Line_WaitForInput);
 
 	PlaySE( 3, "wa_001", 125, 64 );
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -2011,7 +2011,7 @@
 
 //　それはとても心地いいものとは言えなかったが、学校という神聖な日常が侵されずに済んだという安堵にも感じられた￥
 	OutputLine(NULL, "　それはとても心地いいものとは言えなかったが、学校という神聖な日常が侵されずに済んだという安堵にも感じられた。",
-		   NULL, "No puedo decir que estaba cómodo, pero sentí un gran alivio al ver que la santidad de mi vida escolar no había sido profanada.", Line_Normal);
+		   NULL, "No puedo decir que estuviera cómodo, pero sentí un gran alivio al ver que la santidad de mi vida escolar no había sido profanada.", Line_Normal);
 	ClearMessage();
 
 //　いつまで俺はこんな気持ちで暮らさなければならないのだろう…＠
@@ -2117,7 +2117,7 @@
 
 //　俺の口から出た言葉は、魅音の不満げな様子に負けないくらい不満げな声色だった￥
 	OutputLine(NULL, "　俺の口から出た言葉は、魅音の不満げな様子に負けないくらい不満げな声色だった。",
-		   NULL, "El tono las palabras que salieron de mi boca coincidió con la mirada disgustada de Mion.", Line_Normal);
+		   NULL, "El tono de las palabras que salieron de mi boca coincidió con la mirada disgustada de Mion.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -2291,14 +2291,14 @@
 
 //　俺は歩みを止めると、後ろを振り返った＠
 	OutputLine(NULL, "　俺は歩みを止めると、後ろを振り返った。",
-		   NULL, "Me detuve y meré hacia atrás.", Line_WaitForInput);
+		   NULL, "Me detuve y miré hacia atrás.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 
 //　木々でうっそうとした林道は、まるで初めから誰もいなかったかのように静まりかえっている…＠
 	OutputLine(NULL, "　木々でうっそうとした林道は、まるで初めから誰もいなかったかのように静まりかえっている…。",
-		   NULL, "El boscoso camino, repleto de árboles, respondió con un silencio que hacía parecer que no había nadie ahí en primer lugar.", Line_WaitForInput);
+		   NULL, "El boscoso camino, repleto de árboles, respondió con un silencio que hacía parecer que no hubo nadie ahí en primer lugar.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2544,7 +2544,7 @@
 
 //　ここ最近の自分の振舞いを思えば、俺の様子が変に見えても不思議はあるまい＠
 	OutputLine(NULL, "　ここ最近の自分の振舞いを思えば、俺の様子が変に見えても不思議はあるまい。",
-		   NULL, "Al ver como he estado actuando hasta ahora, no me extraña que lo haya percibido como un comportamiento anormal.", Line_WaitForInput);
+		   NULL, "Al ver cómo he estado actuando hasta ahora, no me extraña que lo haya percibido como un comportamiento anormal.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3190,7 +3190,7 @@
 	OutputLine(NULL, "　バットが何と同じだって？",
 		   NULL, "¿Cómo que el mismo bate?", Line_WaitForInput);
 	OutputLine(NULL, "　レナの論点がよく見えない。",
-		   NULL, " No tengo idea de lo que dice.", Line_Normal);
+		   NULL, " ¿De qué diablos está hablando?", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 1000, TRUE );
@@ -3555,7 +3555,7 @@
 
 //　俺と悟史の経過が同じ以上、その先も同じになる可能性は極めて高い…？￥
 	OutputLine(NULL, "　俺と悟史の経過が同じ以上、その先も同じになる可能性は極めて高い…？？",
-		   NULL, "Si Satoshi y yo actuamos igual, entonces es muy probable que lo que nuestro destino vaya a ser igual...", Line_Normal);
+		   NULL, "Si Satoshi y yo actuamos igual, entonces es muy probable que nuestro destino vaya a ser igual...", Line_Normal);
 	ClearMessage();
 
 //「レナ、…ある日突然、…悟史はどうしたんだよッ？！＠
@@ -3577,7 +3577,7 @@
 
 //　レナは…これから俺がどうなるのかを…知っているッ！！￥
 	OutputLine(NULL, "　レナは…これから俺がどうなるのかを…知っているッ！！！",
-		   NULL, "¡¡¡Rena... sabe lo que iba a ocurrir... conmigo!!!", Line_Normal);
+		   NULL, "¡¡¡Rena... sabe lo que va a ocurrir... conmigo!!!", Line_Normal);
 	ClearMessage();
 
 //「こ、答えろよレナ！＠　悟史は…どうしたんだよッ！！！！＠
@@ -3630,7 +3630,7 @@
 
 //　その声にはたった今まであった怯えや激情は一切ない＠
 	OutputLine(NULL, "　その声にはたった今まであった怯えや激情は一切ない。",
-		   NULL, "Su voz en ese momento no tenía el menor rastro de miedo o emoción de antes.", Line_WaitForInput);
+		   NULL, "Su voz en ese momento no tenía el menor rastro del miedo o la emoción de antes.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
