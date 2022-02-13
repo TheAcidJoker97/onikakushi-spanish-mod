@@ -484,7 +484,7 @@
 
 //「くそッ！＠　熊ちゃん、車を回して下さい。＠
 	OutputLine(NULL, "「くそッ！！",
-		   NULL, "\"¡Joder!", Line_WaitForInput);
+		   NULL, "\"¡Carajo!", Line_WaitForInput);
 	OutputLine(NULL, "　熊ちゃん、車を回して下さい。」",
 		   NULL, " Kuma-chan, trae el auto.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
