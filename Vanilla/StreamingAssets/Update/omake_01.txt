@@ -279,7 +279,7 @@
 
 //「………きっと立ち絵がないので登場できないのです。＠
 	OutputLine(NULL, "「………きっと立ち絵がないので登場できないのです。」",
-		   NULL, "\"...Probablemente es porque en ningún sprite aparece parado, así que no podría mostrarse aunque quisiera.\"", Line_WaitForInput);
+		   NULL, "\"...Probablemente es porque en ningún sprite aparece parado, así que no podría asomar su cabecita aunque quisiera.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 	DisableWindow();
@@ -288,7 +288,7 @@
 
 //「梨花さん、そーゆうのは大人の事情って言うんですよ。んっふっふっふ！￥
 	OutputLine(NULL, "「梨花さん、そーゆうのは大人の事情って言うんですよ。んっふっふっふ！」",
-		   NULL, "\"Rika-san, ese es un problema muy personal. ¡Nfufufu!\"", Line_Normal);
+		   NULL, "\"Rika-san, ese es un problema muy íntimo. ¡Nfufufu!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "black", "left", 0, 0, 300 );
@@ -722,7 +722,7 @@
 	OutputLine(NULL, "土着的な何か。",
 		   NULL, " Algo propio de la región...", Line_WaitForInput);
 	OutputLine(NULL, "…今回のシナリオでは騙られなかった因縁だよ！」",
-		   NULL, " ¡El destino no pudo ser engañado esta vez!\"", Line_Normal);
+		   NULL, " ¡Algo en lo que no se profundizó esta vez!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "bg_165", "right", 0, 0, 300 );
@@ -1121,7 +1121,7 @@
 	OutputLine(NULL, "　もちろん、祟りというファンタジーは嫌いじゃないよ？",
 		   NULL, " Claro, eso no significa que me disgusten las cosas de fantasía como las maldiciones.", Line_WaitForInput);
 	OutputLine(NULL, "　だけど今回の事件に限っては、祟りの線は薄いねー。」",
-		   NULL, " Pero en este caso en particular, la conexión a la maldición es un poco débil~.\"", Line_Normal);
+		   NULL, " Pero en este caso en particular, la conexión con la maldición es un poco débil~.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "bg_163", "right", 0, 0, 300 );
@@ -1416,7 +1416,7 @@
 
 //「そうと決まればさっそく電話ですわー！！！￥
 	OutputLine(NULL, "「そうと決まればさっそく電話ですわー！！！」",
-		   NULL, "\"¡Se ha decidido, hora de llamar!\"", Line_Normal);
+		   NULL, "\"¡Está decidido, hora de llamar!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene( "black", 1000 );
