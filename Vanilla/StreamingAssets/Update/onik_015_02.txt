@@ -571,7 +571,7 @@
 
 //「...うわ、何この下駄箱＠どーしちゃったの？＠
 	OutputLine(NULL, "「…うわ、何この下駄箱。",
-		   NULL, "\"...Wow, ¿qué le ocurrió al zapatero?", Line_WaitForInput);
+		   NULL, "\"...Rayos, ¿qué le ocurrió al zapatero?", Line_WaitForInput);
 	OutputLine(NULL, "どーしちゃったの？」",
 		   NULL, " ¿Por qué está así?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -1231,7 +1231,7 @@
 
 //「......圭ちゃん、抵抗しちゃだめだよ～＠会則第......何条でもいいや＠罰ゲームに抵抗しちゃだめなんだからさ～！＠
 	OutputLine(NULL, "「……圭ちゃん、抵抗しちゃだめだよ〜。",
-		   NULL, "\"...Kei-chan, no te resista~s", Line_WaitForInput);
+		   NULL, "\"...Kei-chan, no te resista~s.", Line_WaitForInput);
 	OutputLine(NULL, "会則第……何条でもいいや。",
 		   NULL, " Lo dice la constitución... No hay excepciones.", Line_WaitForInput);
 	OutputLine(NULL, "罰ゲームに抵抗しちゃだめなんだからさ〜！」",
@@ -2624,7 +2624,7 @@
 
 //　そうさ、ここには全てがある＠
 	OutputLine(NULL, "　そうさ、ここには全てがある。",
-		   NULL, "Tengo toas las pruebas.", Line_WaitForInput);
+		   NULL, "Tengo todas las pruebas.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -3158,7 +3158,7 @@
 
 //　...警察だって、死んだはずの人間が関わっているなどとは思うまい＠
 	OutputLine(NULL, "　…警察だって、死んだはずの人間が関わっているなどとは思うまい。",
-		   NULL, "...La policía nunca pensaría que un muerto esté involucrado.", Line_WaitForInput);
+		   NULL, "...La policía nunca pensaría que un muerto está involucrado.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3691,26 +3691,26 @@
 
 //　そして...俺に襲い掛かってきたのは......二人の意思とは異なるものに違いないのだッ！！！！￥
 	OutputLine(NULL, "　そして…俺に襲い掛かってきたのは……二人の意思とは異なるものに違いないのだッ！！！！！",
-		   NULL, "Y... cuando vinieron a por mí... ¡no lo hicieron por voluntad propia!", Line_Normal);
+		   NULL, "Y... cuando vinieron por mí... ¡no lo hicieron por voluntad propia!", Line_Normal);
 	ClearMessage();
 
 
 //　だが...どんな強要があったにせよ、仲間を売るようなやつらじゃなかった＠
 	OutputLine(NULL, "　だが…どんな強要があったにせよ、仲間を売るようなやつらじゃなかった。",
-		   NULL, "Espera... no eran el tipo de personas que entregarían a sus amigos, sin importar si las forzaban o no.", Line_WaitForInput);
+		   NULL, "Pero... no eran el tipo de personas que entregarían a sus amigos, sin importar si las forzaban o no.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 
 //　オヤシロさまなんてものに乗っ取られるような、非現実的なことがあるわけもなかった＠
 	OutputLine(NULL, "　オヤシロさまなんてものに乗っ取られるような、非現実的なことがあるわけもなかった。",
-		   NULL, "No es posible que Oyashiro-sama pueda poseer gente de verdad.", Line_WaitForInput);
+		   NULL, "Y no es posible en este mundo que Oyashiro-sama pueda poseer gente.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
 //　じゃあ...やっぱり......本物のレナと魅音が...襲い掛かってきたんだ...？！？＠
 	OutputLine(NULL, "　じゃあ…やっぱり……本物のレナと魅音が…襲い掛かってきたんだ…？！？！",
-		   NULL, "¿¡¿¡Entonces... en serio... vinieron a por mí...  las verdaderas Rena y Mion...!?!?", Line_WaitForInput);
+		   NULL, "¿¡¿¡Entonces... en serio... vinieron por mí...  las verdaderas Rena y Mion...!?!?", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
