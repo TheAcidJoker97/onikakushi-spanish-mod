@@ -2046,7 +2046,7 @@
 	OutputLine(NULL, "「住民票でわかったんですが、竜宮一家は元は雛見沢の住人です。",
 		   NULL, "\"Según el registro de residentes, la familia Ryuugu solía vivir en Hinamizawa.", Line_WaitForInput);
 	OutputLine(NULL, "レナさんがちょうど小学校に上がるときに茨城へ引っ越されたんです。」",
-		   NULL, " Rena-san se mudó a Ibaraki cuando terminó la primaria.\"", Line_Normal);
+		   NULL, " Rena-san se mudó a Ibaraki cuando empezó la primaria.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2391,7 +2391,7 @@
 
 //「圧力って…何のですか。＠
 	OutputLine(NULL, "「圧力って…何のですか。」",
-		   NULL, "\"Presión... ¿De qiuén?\"", Line_WaitForInput);
+		   NULL, "\"Presión... ¿De quién?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3627,7 +3627,7 @@
 
 //　たまたま俺と同席が雛見沢の人間じゃなかったから興味を覚えられただけで……別に…他意なんかないのかもしれない…＠そうだ、そうに違いない…￥
 	OutputLine(NULL, "　たまたま俺と同席が雛見沢の人間じゃなかったから興味を覚えられただけで……別に…他意なんかないのかもしれない…。",
-		   NULL, "Únicamente tenían curiosidad porque estaba con alguien que no es de Hinamizawa... Tan vez... no tenían malas intenciones...", Line_WaitForInput);
+		   NULL, "Únicamente tenían curiosidad porque estaba con alguien que no es de Hinamizawa... Tal vez... no tenían malas intenciones...", Line_WaitForInput);
 	OutputLine(NULL, "そうだ、そうに違いない…！",
 		   NULL, " Eso es. ¡Eso debe ser...!", Line_Normal);
 	ClearMessage();
@@ -4163,7 +4163,7 @@
 
 //　使っている材料はまったく同じなのだから味に大差はない＠
 	OutputLine(NULL, "　使っている材料はまったく同じなのだから味に大差はない。",
-		   NULL, "Los ingredientes son exactamente los mismos, así que no hy mucha diferencia en el sabor.", Line_WaitForInput);
+		   NULL, "Los ingredientes son exactamente los mismos, así que no hay mucha diferencia en el sabor.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
