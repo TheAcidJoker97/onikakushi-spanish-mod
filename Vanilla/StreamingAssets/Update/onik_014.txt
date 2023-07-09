@@ -1193,7 +1193,7 @@
 
 //　有事の際には自らの椅子を振り回すくらいしかないのだろうか…＠
 	OutputLine(NULL, "　有事の際には自らの椅子を振り回すくらいしかないのだろうか…。",
-		   NULL, "En caso de emergencia, no podía hacer más que defenderme con mi propia silla...", Line_WaitForInput);
+		   NULL, "En caso de emergencia, no podría hacer más que defenderme con mi propia silla...", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -1206,7 +1206,7 @@
 
 //　魅音が部活の備品と称してゲームを大量にしまい込んでいるロッカーもそのひとつだ＠
 	OutputLine(NULL, "　魅音が部活の備品と称してゲームを大量にしまい込んでいるロッカーもそのひとつだ。",
-		   NULL, "Entre ellos estaba el casillero que Mion utilizaba para guardar si montaña de juegos.", Line_WaitForInput);
+		   NULL, "Entre ellos estaba el casillero que Mion utilizaba para guardar su montaña de juegos.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3241,12 +3241,12 @@
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "……………え…",
-		   NULL, " ¿Eh...?\"", Line_ContinueAfterTyping);
+		   NULL, " ¿Eh...?", Line_ContinueAfterTyping);
 
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "？」",
-		   NULL, " ???", Line_WaitForInput);
+		   NULL, " ???\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
