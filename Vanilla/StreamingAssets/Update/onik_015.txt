@@ -2084,7 +2084,7 @@
 
 //　いや、俺に足音が聞き取れたように、相手も俺の足音を聞き取っているだろう＠
 	OutputLine(NULL, "　いや、俺に足音が聞き取れたように、相手も俺の足音を聞き取っているだろう。",
-		   NULL, "No... pude escuchar sus pisadas, probablemente también pudo escuchar las mías.", Line_WaitForInput);
+		   NULL, "No... Pude escuchar sus pisadas, probablemente también pudo escuchar las mías.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2863,7 +2863,7 @@
 	OutputLine(NULL, "「こ、怖くなんかない！",
 		   NULL, "\"¡N-No estoy asustado!", Line_WaitForInput);
 	OutputLine(NULL, "　何も怖いことなんか、」",
-		   NULL, " No me asusta nadag—\"", Line_WaitForInput);
+		   NULL, " No me asusta nada—\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -3096,7 +3096,7 @@
 
 //「悩みがなくなればきっと圭一くんも元通り＠みんなとも仲良しに戻れて、また楽しく部活ができるよ＠今度は一緒に組んで魅ぃちゃんをやっつけようね。!s200あはははははははははははははははは!sd。＠
 	OutputLine(NULL, "「悩みがなくなればきっと圭一くんも元通り。",
-		   NULL, "\"Si Keiichi-kun no tiene nada de que preocuparse, entonces volverá a la normalidad.", Line_WaitForInput);
+		   NULL, "\"Si Keiichi-kun no tiene nada de qué preocuparse, entonces volverá a la normalidad.", Line_WaitForInput);
 	OutputLine(NULL, "みんなとも仲良しに戻れて、また楽しく部活ができるよ。",
 		   NULL, " Todos volveremos a ser amigos y podremos disfrutar de las actividades del club una vez más.", Line_WaitForInput);
 	OutputLine(NULL, "今度は一緒に組んで魅ぃちゃんをやっつけようね。",
@@ -4401,7 +4401,7 @@
 
 //「書面で申請しろと言われました＠手帳自体に法的拘束力は何もありませんからねぇ...。￥
 	OutputLine(NULL, "「書面で申請しろと言われました。",
-		   NULL, "\"Me dijo que consiguiera ona orden.", Line_WaitForInput);
+		   NULL, "\"Me dijo que consiguiera una orden.", Line_WaitForInput);
 	OutputLine(NULL, "手帳自体に法的拘束力は何もありませんからねぇ…。」",
 		   NULL, " La placa no tiene ninguna autoridad legal...\"", Line_Normal);
 	ClearMessage();
@@ -5326,7 +5326,7 @@
 
 //　脱兎のごとくという言葉がこれ以上似合うことはないだろう＠
 	OutputLine(NULL, "　脱兎のごとくという言葉がこれ以上似合うことはないだろう。",
-		   NULL, "Como dirían por ahí: \"corre como el viento\"", Line_WaitForInput);
+		   NULL, "Como dirían por ahí: \"corre como el viento.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
