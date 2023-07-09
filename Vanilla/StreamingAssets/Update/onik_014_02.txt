@@ -581,7 +581,7 @@
 
 //　いずれの攻撃も敵には当たらなかったが、俺の激情は確かにぶち当たったようだった￥
 	OutputLine(NULL, "　いずれの攻撃も敵には当たらなかったが、俺の激情は確かにぶち当たったようだった。",
-		   NULL, "Ninguno de mis ataques daño al enemigo, pero mi ferocidad pareció impactarle.", Line_Normal);
+		   NULL, "Ninguno de mis ataques dañó al enemigo, pero mi ferocidad pareció impactarle.", Line_Normal);
 	ClearMessage();
 
 //　俺が肩で息をし、全身を熱い汗でぬらす頃には、あの、いないけどいる見えない敵は霧散していた＠
@@ -1099,7 +1099,7 @@
 	OutputLine(NULL, "　親父は芸術家特有のガラスのアイデンティティ、秋の空のような変わり易い感情の持ち主だ。",
 		   NULL, "Una parte de la frágil personalidad artística de mi padre era que sus emociones cambiaban tan fácilmente como el cielo de otoño.", Line_WaitForInput);
 	OutputLine(NULL, "……単に打たれ弱いとも言うが。",
-		   NULL, " ...También podría dceirse que no aguantaba las críticas.", Line_Normal);
+		   NULL, " ...También podría decirse que no aguantaba las críticas.", Line_Normal);
 	ClearMessage();
 
 //「でも...そんなの電話でやり取りすればいいじゃないか！＠
@@ -1782,7 +1782,7 @@
 
 //「その、大石さん、...やっぱり俺、......命を狙われているみたいです。＠
 	OutputLine(NULL, "「その、大石さん、…やっぱり俺、……命を狙われているみたいです。」",
-		   NULL, "\"Bueno, Ooishi-san... perece que... hay alguien tras de mí.\"", Line_WaitForInput);
+		   NULL, "\"Bueno, Ooishi-san... parece que... hay alguien tras de mí.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
@@ -2635,7 +2635,7 @@
 
 //　お袋は具合が悪いと言って今日は早めに寝てしまいました...＠...無難な辺りか￥
 	OutputLine(NULL, "　お袋は具合が悪いと言って今日は早めに寝てしまいました…。",
-		   NULL, "Simplemente le diré que Mamá no se siente bien y que acostó temprano...", Line_WaitForInput);
+		   NULL, "Simplemente le diré que Mamá no se siente bien y que se acostó temprano...", Line_WaitForInput);
 	OutputLine(NULL, "…無難な辺りか。",
 		   NULL, " Iré a lo seguro.", Line_Normal);
 	ClearMessage();
@@ -3315,7 +3315,7 @@
 
 //　だが...無視することで忘れようとしている感覚が......背筋をじわりじわりと登ってくる￥
 	OutputLine(NULL, "　だが…無視することで忘れようとしている感覚が……背筋をじわりじわりと登ってくる。",
-		   NULL, "Sin embargo... el sentimiento que trataba de ignorar... empezó a reptar por mi espala una vez más.", Line_Normal);
+		   NULL, "Sin embargo... el sentimiento que trataba de ignorar... empezó a reptar por mi espalda una vez más.", Line_Normal);
 	ClearMessage();
 
 //　俺はお袋が夕飯を今まさに並べてくれているように話しているのだが......レナと話が噛み合わない＠
@@ -4504,7 +4504,7 @@
 
 //　レナの白い指先は真っ赤になり、もはや蠢きもしなかった￥
 	OutputLine(NULL, "　レナの白い指先は真っ赤になり、もはや蠢きもしなかった。",
-		   NULL, "Los blancos dedos de Rena se habían tordnado de un rojo oscuro, ya ni siquiera se movían.", Line_Normal);
+		   NULL, "Los blancos dedos de Rena se habían tornado de un rojo oscuro, ya ni siquiera se movían.", Line_Normal);
 	ClearMessage();
 
 //「ごめんなさい＠ごめんなさい＠ごめんなさい...、＠
@@ -4587,7 +4587,7 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "やめろやめろやめろ！！！",
-		   NULL, " ¡¡DETENTE DETENTE DETENTE!!!", Line_WaitForInput);
+		   NULL, " ¡¡¡DETENTE, DETENTE, DETENTE!!!", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -4598,7 +4598,7 @@
 
 //　やがて、何かの拍子に一気にレナの指が扉の枷から外れた＠
 	OutputLine(NULL, "　やがて、何かの拍子に一気にレナの指が扉の枷から外れた。",
-		   NULL, "Finalmente, sus dedos lograron liberarse de su aprisionamiento entre la puerta.", Line_WaitForInput);
+		   NULL, "Finalmente, sus dedos lograron liberarse de su aprisionamiento entre la puerta y el marco.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
